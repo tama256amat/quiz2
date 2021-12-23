@@ -1,15 +1,24 @@
 .bg-yellow{
     width: 280px;
-    height:450px;
+    height: auto;
     background-color: yellow;   
 }
 
 .bg-white{
     width: 230px;
-    margin:2rem;
-    background-color: white; 
+    margin-top:1.5em;
+    margin-bottom:0.5em;
+    background-color: white;  
 }
-
 .round{
     border-radius:2.5rem;
+}
+p {
+   font-family: "UD デジタル 教科書体 NK-R" ; 
+   font-size: medium ;
+}
+.btn{
+    width: 230px;
+    letter-spacing: 0.5em;
+    
 }
