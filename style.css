@@ -1,3 +1,7 @@
+.img{
+    max-width: 100%;
+    height: auto;
+}
 .bg-yellow{
     width: 280px;
     height: auto;
