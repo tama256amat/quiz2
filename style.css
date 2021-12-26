@@ -21,6 +21,10 @@ p {
    font-family: "UD デジタル 教科書体 NK-R" ; 
    font-size: medium ;
 }
+.point{
+    font-size: x-large;
+    padding-left: 1em;
+}
 .icon{
     padding-top: 0.2rem;
     width: 12% ;
