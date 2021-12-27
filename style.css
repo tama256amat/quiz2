@@ -1,53 +1,55 @@
-.img{
-    max-width: 100%;
-    height: auto;
+.img {
+  max-width: 100%;
+  height: auto;
 }
-.bg-yellow{
-    width: 280px;
-    height: auto;
-    background-color: yellow;   
+.bg-yellow {
+  width: 280px;
+  height: auto;
+  background-color: yellow;
 }
-.bg-white{
-    width: 230px;
-    margin-top:1.5em;
-    margin-bottom:0.5em;
-    background-color: white;
-    border-radius:0.2em;  
+.bg-white {
+  width: 230px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  background-color: white;
+  border-radius: 0.2em;
 }
-.round{
-    border-radius:2.5rem;
+.round {
+  border-radius: 2.5rem;
 }
 p {
-   font-family: "UD デジタル 教科書体 NK-R" ; 
-   font-size: medium ;
+  font-family: "UD デジタル 教科書体 NK-R";
+  font-size: medium;
 }
-.point{
-    font-size: x-large;
-    padding-left: 1em;
+.point {
+  font-size: x-large;
+  padding-left: 1em;
 }
-.icon{
-    padding-top: 0.2rem;
-    width: 12% ;
-    height: 10%;
-    position: relative; top:0; left: 2.5em;;
+.icon {
+  padding-top: 0.2rem;
+  width: 12%;
+  height: 10%;
+  position: relative;
+  top: 0;
+  left: 2.5em;
 }
-.btn2{
-    width: 260px;
-    letter-spacing: 0.5em;    
+.btn2 {
+  width: 260px;
+  letter-spacing: 0.5em;
 }
-.btn1{
-    width: 230px;
-    letter-spacing: 0.08em;
+.btn1 {
+  width: 230px;
+  letter-spacing: 0.08em;
 }
-.button-container{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-right: 0.5em;
-    padding-bottom: 2em;
-    padding-top:0.2em;
-    border-radius: 2em;
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0.5em;
+  padding-bottom: 2em;
+  padding-top: 0.2em;
+  border-radius: 2em;
 
-    width: 260px;
+  width: 260px;
 }
