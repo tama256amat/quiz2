@@ -1,4 +1,4 @@
-.img {
+.imgUrl {
   max-width: 100%;
   height: auto;
 }
@@ -23,7 +23,6 @@ p {
 }
 .point {
   font-size: x-large;
-  padding-left: 1em;
 }
 .icon {
   padding-top: 0.2rem;
