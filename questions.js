@@ -2,14 +2,14 @@
 
 //「正解」「残念」によって、explanation.html の画像を変える
 
-let changeImg = document.getElementById("img");
-changeImg.src =
-  "https://user-images.githubusercontent.com/91357435/147396635-edb9e813-3ee3-418c-8029-aadea84807b2.png";
+// let changeImg = document.getElementById("imgurl");
+// changeImg.src =
+//   "https://user-images.githubusercontent.com/91357435/147396635-edb9e813-3ee3-418c-8029-aadea84807b2.png";
 // function judgeImg(changeImg) {
 
 //ねこせいかい
 // let answer = "true"
-// if (true) {
+// if (true) {https://user-images.githubusercontent.com/91357435/147396635-edb9e813-3ee3-418c-8029-aadea84807b2.png
 
 //     }
 //   //ねこざんねん
