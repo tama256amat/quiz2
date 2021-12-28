@@ -24,6 +24,7 @@ Quiz アプリ ver.2 です。
 https://twitter.com/tama256amat/status/1472056515779784704
 
 -12/20 アプリの作り方を学ぶ（システム開発のながれ)
+
 -12/21 外部設計をつくる
 https://user-images.githubusercontent.com/91357435/147605187-a6ade94a-8b0b-4594-bd74-3b043fd1b342.jpg
 
