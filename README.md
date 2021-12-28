@@ -1,7 +1,7 @@
 # 体を知ろう Quiz2
 
 Quiz アプリ ver.2 です。
-ver.1 https://tama256amat.github.io/quiz/（教材を見てつくりました）
+ver.1 https://tama256amat.github.io/quiz/
 
 # Features
 
