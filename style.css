@@ -11,6 +11,13 @@
   height: auto;
   background-color: yellow;
 }
+
+.bg-yellow-explanation {
+  width: 280px;
+  height: 80vh;
+  background-color: yellow;
+}
+
 .bg-white {
   width: 230px;
   margin-top: 1.5em;
@@ -18,6 +25,16 @@
   background-color: white;
   border-radius: 0.2em;
 }
+.bg-white-explanation {
+  width: 230px;
+  height: 65vh;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  background-color: white;
+  border-radius: 0.2em;
+  overflow: scroll;
+}
+
 .round {
   border-radius: 2.5rem;
 }
