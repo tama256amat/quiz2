@@ -1,4 +1,4 @@
-//  */
+//
 
 //「正解」「残念」によって、explanation.html の画像を変える
 
@@ -26,12 +26,22 @@
 
 // }
 
-// //正解数を集計--> resultpageに反映
+//正解数を集計
 
-// let getanswer = document.getElementById('answer_a');
+function onClickCorrect() {
+  location.href = "explanation.html";
+  const point = localStorage.getItem("point")
+    ? parseInt(localStorage.getItem("point"))
+    : 0;
+  localStorage.setItem("point", point + 1);
+}
 
-//  function showquiz(quiz){
+// 最終問題解説ページからresult.html へ 。クリックしたら正解数出るようにしたいけど。。。
+document.getElementById("load").addEventListener("click", () => {
+  location.href = "result.html";
+});
 
-//  }
-
-//  // 問題、ボタンは5ページ分つくることにする！最期ページ判定もいらない
+//result.html の点数の場所に反映
+function askForResult() {
+  const total = sessionStorage.getItem("point");
+}
