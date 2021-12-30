@@ -7,29 +7,31 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="questions.js" defer></script>
+    <script src="explanation.js" defer></script>
     <title>体を知ろうクイズ２| 解説</title>
 </head>
 <body>
     <div class="vh-100 bg-dark d-flex justify-content-center align-items-center ">
         <div>
-            <div class="bg-yellow-explanation  round d-flex align-items-baseline flex-column">
+            <div class="bg-yellow-explanation round d-flex align-items-baseline flex-column">
                 <div class="container d-flex justify-content-center ">
                     <!-- 解説 -->
                     <div class="bg-white-explanation">      
                         <div class="containar pt-2 px-2 pb-0">
                             <div class="d-flex justify-content-center flex-column align-items-start">
-                                <img id="imgUrl" class="imgUrl" src="https://user-images.githubusercontent.com/91357435/147396635-edb9e813-3ee3-418c-8029-aadea84807b2.png" alt="正解！！">
+                                <img id="imgUrl" class="imgUrl" alt="おしいね～">
                             </div>
                             <div class="d-flex justify-content-center flex-column">
-                                <h5 class="d-flex justify-content-center col">問題<span id="num" >3</span>解説</h5>
+                                <h5 class="d-flex justify-content-center col">問題<span id="num" >1</span>解説</h5>
                                 <p class="col pb-0">
-                                    今回は「水」を正解にしました！実は「食物繊維」説もあります。今は九大栄養素まであるそうですよ？（ぐぐってみてね）。<br>
-<br>
-栄養というと、なんとなく元気いっぱい！なイメージがありますが、「生きるために必要」という視点から考えると「水」が一番大切だとは思います。<br>
-<br>水はヒトの体重の60%を占め、血液は8%（ざっくり4.5ℓくらい）ですので、この1/3（ざっくり1.5ℓ）を失うと命が危ぶまれます。大きなペットボトル1本と考えるとイメージしやすいかもしれませんね。<br>
-<br>止血がどれだけ大切か、イメージしていただけましたでしょうか。
-（だいじょうぶですかー－－と叫んだ救命救急講習を思い出しました）<br></p>
+                                    そもそも、「風邪」ってなんでしょう。<br>これは病気の名前ではなく、微生物による鼻やのどの急性感染症のことです。ちなみに風邪のほとんどの原因が、ウイルス感染です。<br>
+                                    これらは病気によって感染の仕方が違いますが、まずは「接触感染」を防ぐことが大事です。<br>
+                                    <br>
+                                    想像してみましょう。あなたは風邪をひき鼻水がでています。ティッシュで鼻をかんだその手で机を触りました。そこを他の人が触って、その手を鼻や口元にもっていきました…。<br>
+                                    <br>
+                                    そしてウイルスがその人の体に入ることで感染します。これが「接触感染」のひとつです。「家族と同じタオルを使う」ことも避けましょう。<br>
+                                    <br>
+                                    もちろん「まわし飲み」は、避けましょうね！<br></p>
                             </div>
                         </div>                       
                     </div>
@@ -37,15 +39,10 @@
                     <!-- ボタン -->
                     <div class="container p-2 pb-4">
                         <div class="d-flex pt-2 justify-content-center">
-                            <button type="button" button class="btn btn1 btn-light pl-3" onclick="location.href='question4.html'">次のクイズを解く→</button>
+                            <button type="button" id="nextQuestion" class="btn btn1 btn-light pl-3">次のクイズを解く</button>
                     </div>    
              </div> 
         </div>
     </div>
-</body>
-</html>
-
-
-    
 </body>
 </html>
