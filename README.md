@@ -36,6 +36,12 @@ ver.1 は教材を見てつくりました https://tama256amat.github.io/quiz/ <
 - 12/23 ～ HTML/CSS/Bootstrap で実装
 
 - 12/28 クイズアプリの動き完成 ブラッシュアップ継続
+
+- 12/29 よりJavascriptで実装 
+
+1.正解クリックによる正解数集計と表示
+2.正解クリック後の画面遷移
+
   <br><br>
 
 # Author

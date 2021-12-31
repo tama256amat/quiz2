@@ -24,7 +24,7 @@
                                     <p class="d-flex pb-0 justify-content-center col ">あなたの正解数は</p>
                                 </div>
                                     <div class="d-flex flex-row justify-content-center">
-                                        <p id ="total" class="point">４</p>
+                                        <p id ="total" class="point"></p>
                                         <p class="point">つ！！</p>
                                     </div>
                                     <div class="d-flex justify-content-center flex-column align-items-start">
@@ -32,9 +32,8 @@
                                     </div>
                             </div> 
                         </div>                       
-                        
                 </div> 
-            
+
                         <!-- ボタン -->
                         <div class="container p-2 pb-4">
   
@@ -47,7 +46,10 @@
         </div>
     </div>
 
-
+    <script>
+        const total = getElementById("total");
+        const point = localStorage.getItem("point");
+    </script>
     
 </body>
 </html>
