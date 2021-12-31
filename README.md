@@ -5,7 +5,8 @@ ver.1 は教材を見てつくりました https://tama256amat.github.io/quiz/ <
 
 # Features
 
-ユーザーが自分とご家族の身を守ることにつながるクイズを学べます。
+ユーザーが自分とご家族の身を守ることにつながるクイズを学べます。<br>
+正解数を最後に表示します。
 <br><br>
 
 # Usage
@@ -18,6 +19,7 @@ ver.1 は教材を見てつくりました https://tama256amat.github.io/quiz/ <
 # Note
 
 クイズは全部で 5 問あります。
+最後に正解数が表示されます。
 <br><br>
 
 # production steps
@@ -39,7 +41,7 @@ ver.1 は教材を見てつくりました https://tama256amat.github.io/quiz/ <
 
 - 12/29 よりJavascriptで実装 
 
-1.正解クリックによる正解数集計と表示
+1.正解数をlocalStrageへ格納と表示
 2.正解クリック後の画面遷移
 
   <br><br>
