@@ -48,7 +48,7 @@ ver.1 は教材を見てつくりました https://tama256amat.github.io/quiz/ <
 
 # Author
 
-tama256amat&emsp;(Mayuko Takeda)
+tama256amat
 <br><br>
 
 # License
